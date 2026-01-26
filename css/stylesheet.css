@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.title-container {
+    text-align: center;
+    margin: 20px auto;
+    border: 2px solid black;
+    padding: 20px;
+    display: inline-block;
+    background-color: #f3ebeb;
+}
+
+ul,
+ol {
+  list-style-position: inside;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  margin: 10px 0;
+  display: inline-block;
+  border : 2px solid black;
+  padding: 10px;
+  background-color: #f3ebeb;
+}
+body {
+  font-family: "Inter", Arial, sans-serif;
+  margin: 0;
+  background-color: #e7e1e1;
+  text-align: center;
+}
